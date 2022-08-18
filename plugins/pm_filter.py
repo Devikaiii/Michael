@@ -848,10 +848,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
             InlineKeyboardButton('ɪᴍᴅʙ', callback_data='image'),
-            InlineKeyboardButton("ᴊsᴏɴ", callback_data='son')
+            InlineKeyboardButton("ᴀᴅᴍɪɴ", callback_data='son')
             ],[
             InlineKeyboardButton('ᴘɪɴ', callback_data='pin'), 
-            InlineKeyboardButton('ᴘᴀsᴛᴇ', callback_data='pastes'),
+            InlineKeyboardButton('ᴊsᴏɴ', callback_data='son'),
             InlineKeyboardButton("ʏᴛ ᴛʜᴜᴍʙ", callback_data='ytthumb')
             ],[
             InlineKeyboardButton('« Back', callback_data='start'), 
@@ -879,7 +879,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='restric'),
             InlineKeyboardButton("ᴋɪᴄᴋ", callback_data='zombies')
             ],[
-            InlineKeyboardButton('« Back', callback_data='one'), 
+            InlineKeyboardButton('« Back', callback_data='help'), 
             InlineKeyboardButton('Close x̸', callback_data='close_data'),
             InlineKeyboardButton('Next »', callback_data='two')
         ]]
@@ -902,7 +902,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ᴀᴜᴅɪᴏ ʙᴏᴏᴋ', callback_data='abook'), 
             InlineKeyboardButton('ғᴜɴ', callback_data='fun'),
-            InlineKeyboardButton("sᴛᴀᴛᴜs", callback_data='stats')
+            InlineKeyboardButton("ᴘᴀsᴛᴇ", callback_data='pastes')
             ],[
             InlineKeyboardButton('« Back', callback_data='one'), 
             InlineKeyboardButton('Close x̸', callback_data='close_data'),
@@ -920,8 +920,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Status 📉', callback_data='stats'),
             InlineKeyboardButton('🧸 Share', url='https://t.me/AboutAadhi')
             ],[
-            InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
-            InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
+            InlineKeyboardButton('⏪ Back', callback_data='start'),
+            InlineKeyboardButton('Close 🔐', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
