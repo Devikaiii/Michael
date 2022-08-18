@@ -855,7 +855,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("ʏᴛ ᴛʜᴜᴍʙ", callback_data='ytthumb')
             ],[
             InlineKeyboardButton('« Back', callback_data='start'), 
-            InlineKeyboardButton('Ⓧ︎Ⓧ︎Ⓧ︎', callback_data='close_data'),
+            InlineKeyboardButton('Close x̸', callback_data='close_data'),
             InlineKeyboardButton('Next »', callback_data='one')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -879,9 +879,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='restric'),
             InlineKeyboardButton("ᴋɪᴄᴋ", callback_data='zombies')
             ],[
-            InlineKeyboardButton('🄱🄰🄲🄺', callback_data='one'), 
-            InlineKeyboardButton('Ⓒ︎Ⓛ︎Ⓞ︎Ⓢ︎Ⓔ︎', callback_data='close_data'),
-            InlineKeyboardButton('🄽🄴🅇🅃', callback_data='two')
+            InlineKeyboardButton('« Back', callback_data='one'), 
+            InlineKeyboardButton('Close x̸', callback_data='close_data'),
+            InlineKeyboardButton('Next »', callback_data='two')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -930,7 +930,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "restric":
         buttons = [[
-            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            InlineKeyboardButton('⏪ Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -941,7 +941,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "image":
         buttons= [[
-            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            InlineKeyboardButton('⏪ Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
