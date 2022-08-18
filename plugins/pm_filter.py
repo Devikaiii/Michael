@@ -854,9 +854,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴘᴀsᴛᴇ', callback_data='pastes'),
             InlineKeyboardButton("ʏᴛ ᴛʜᴜᴍʙ", callback_data='ytthumb')
             ],[
-            InlineKeyboardButton('⏪ Back', callback_data='start'), 
-            InlineKeyboardButton('Close 🔐', callback_data='close_data'),
-            InlineKeyboardButton('Next ⏩', callback_data='one')
+            InlineKeyboardButton('🄱🄰🄲🄺', callback_data='start'), 
+            InlineKeyboardButton('Ⓒ︎Ⓛ︎Ⓞ︎Ⓢ︎Ⓔ︎', callback_data='close_data'),
+            InlineKeyboardButton('🄽🄴🅇🅃', callback_data='one')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -879,9 +879,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='restric'),
             InlineKeyboardButton("ᴋɪᴄᴋ", callback_data='zombies')
             ],[
-            InlineKeyboardButton('⏪ Back', callback_data='one'), 
-            InlineKeyboardButton('Close 🔐', callback_data='close_data'),
-            InlineKeyboardButton('Next ⏩', callback_data='one')
+            InlineKeyboardButton('🄱🄰🄲🄺', callback_data='one'), 
+            InlineKeyboardButton('Ⓒ︎Ⓛ︎Ⓞ︎Ⓢ︎Ⓔ︎', callback_data='close_data'),
+            InlineKeyboardButton('🄽🄴🅇🅃', callback_data='one')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -905,7 +905,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("sᴛᴀᴛᴜs", callback_data='stats')
             ],[
             InlineKeyboardButton('⏪ Back', callback_data='one'), 
-            InlineKeyboardButton('Close 🔐', callback_data='close_data'),
+            InlineKeyboardButton('Close🔐', callback_data='close_data'),
             InlineKeyboardButton('🏠 Home', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
