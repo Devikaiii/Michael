@@ -842,21 +842,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('𝙼𝙰𝙽𝚄𝙴𝙻 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='manuelfilter'),
-            InlineKeyboardButton('𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='autofilter'),
-            InlineKeyboardButton('𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂', callback_data='coct')
+            InlineKeyboardButton('ᴀᴜᴛᴏ', callback_data='manuelfilter'),
+            InlineKeyboardButton('ᴍᴀɴᴜᴀʟ', callback_data='autofilter'),
+            InlineKeyboardButton('ʙᴀᴛᴄʜ', callback_data='coct')
             ],[
-            InlineKeyboardButton('𝚂𝙾𝙽𝙶', callback_data='songs'),
-            InlineKeyboardButton('𝙴𝚇𝚃𝚁𝙰', callback_data='extra'),
-            InlineKeyboardButton("𝚅𝙸𝙳𝙴𝙾", callback_data='video')
+            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='songs'),
+            InlineKeyboardButton('ɪᴍᴅʙ', callback_data='extra'),
+            InlineKeyboardButton("ᴊsᴏɴ", callback_data='video')
             ],[
-            InlineKeyboardButton('𝙿𝙸𝙽', callback_data='pin'), 
-            InlineKeyboardButton('𝙿𝙰𝚂𝚃𝙴', callback_data='pastes'),
-            InlineKeyboardButton("𝙸𝙼𝙰𝙶𝙴", callback_data='image')
+            InlineKeyboardButton('ᴘɪɴ', callback_data='pin'), 
+            InlineKeyboardButton('ᴘᴀsᴛᴇ', callback_data='pastes'),
+            InlineKeyboardButton("ʏᴛ ᴛʜᴜᴍʙ", callback_data='image')
             ],[
-            InlineKeyboardButton('𝙵𝚄𝙽', callback_data='fun'), 
-            InlineKeyboardButton('𝙹𝚂𝙾𝙽𝙴', callback_data='son'),
-            InlineKeyboardButton('𝚃𝚃𝚂', callback_data='ttss')
+            InlineKeyboardButton('', callback_data='fun'), 
+            InlineKeyboardButton('', callback_data='son'),
+            InlineKeyboardButton('', callback_data='ttss')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -867,21 +867,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "one":
         buttons = [[
-            InlineKeyboardButton('𝙼𝙰𝙽𝚄𝙴𝙻 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='manuelfilter'),
-            InlineKeyboardButton('𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='autofilter'),
-            InlineKeyboardButton('𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂', callback_data='coct')
+            InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='manuelfilter'),
+            InlineKeyboardButton('ᴛᴛs', callback_data='autofilter'),
+            InlineKeyboardButton('ᴘɪɴɢ', callback_data='coct')
             ],[
-            InlineKeyboardButton('𝚂𝙾𝙽𝙶', callback_data='songs'),
-            InlineKeyboardButton('𝙴𝚇𝚃𝚁𝙰', callback_data='extra'),
-            InlineKeyboardButton("𝚅𝙸𝙳𝙴𝙾", callback_data='video')
+            InlineKeyboardButton('sᴏɴɢ', callback_data='songs'),
+            InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra'),
+            InlineKeyboardButton("ᴠɪᴅᴇᴏ", callback_data='video')
             ],[
-            InlineKeyboardButton('𝙿𝙸𝙽', callback_data='pin'), 
-            InlineKeyboardButton('𝙿𝙰𝚂𝚃𝙴', callback_data='pastes'),
-            InlineKeyboardButton("𝙸𝙼𝙰𝙶𝙴", callback_data='image')
+            InlineKeyboardButton('ᴡʜᴏɪs', callback_data='pin'), 
+            InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='pastes'),
+            InlineKeyboardButton("ᴋɪᴄᴋ", callback_data='image')
             ],[
-            InlineKeyboardButton('𝙵𝚄𝙽', callback_data='fun'), 
-            InlineKeyboardButton('𝙹𝚂𝙾𝙽𝙴', callback_data='son'),
-            InlineKeyboardButton('𝚃𝚃𝚂', callback_data='ttss')
+            InlineKeyboardButton('', callback_data='fun'), 
+            InlineKeyboardButton('', callback_data='son'),
+            InlineKeyboardButton('', callback_data='ttss')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -892,21 +892,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "two":
         buttons = [[
-            InlineKeyboardButton('𝙼𝙰𝙽𝚄𝙴𝙻 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='manuelfilter'),
-            InlineKeyboardButton('𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='autofilter'),
-            InlineKeyboardButton('𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂', callback_data='coct')
+            InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='manuelfilter'),
+            InlineKeyboardButton('ᴄᴏᴠɪᴅ', callback_data='autofilter'),
+            InlineKeyboardButton('ʀᴇᴘᴏʀᴛ', callback_data='coct')
             ],[
-            InlineKeyboardButton('𝚂𝙾𝙽𝙶', callback_data='songs'),
-            InlineKeyboardButton('𝙴𝚇𝚃𝚁𝙰', callback_data='extra'),
-            InlineKeyboardButton("𝚅𝙸𝙳𝙴𝙾", callback_data='video')
+            InlineKeyboardButton('sᴛɪᴄᴋᴇʀ ɪᴅ', callback_data='songs'),
+            InlineKeyboardButton('ɢ ᴛʀᴀɴs', callback_data='extra'),
+            InlineKeyboardButton("ᴜʀʟ sʜᴏʀᴛ", callback_data='video')
             ],[
-            InlineKeyboardButton('𝙿𝙸𝙽', callback_data='pin'), 
-            InlineKeyboardButton('𝙿𝙰𝚂𝚃𝙴', callback_data='pastes'),
-            InlineKeyboardButton("𝙸𝙼𝙰𝙶𝙴", callback_data='image')
+            InlineKeyboardButton('ᴀᴜᴅɪᴏ ʙᴏᴏᴋ', callback_data='pin'), 
+            InlineKeyboardButton('ғᴜɴ', callback_data='pastes'),
+            InlineKeyboardButton("sᴛᴀᴛᴜs", callback_data='image')
             ],[
-            InlineKeyboardButton('𝙵𝚄𝙽', callback_data='fun'), 
-            InlineKeyboardButton('𝙹𝚂𝙾𝙽𝙴', callback_data='son'),
-            InlineKeyboardButton('𝚃𝚃𝚂', callback_data='ttss')
+            InlineKeyboardButton('', callback_data='fun'), 
+            InlineKeyboardButton('', callback_data='son'),
+            InlineKeyboardButton('', callback_data='ttss')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.answer("𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗆𝗒 𝖧𝖾𝗅𝗉 𝗆𝗈𝖽𝗎𝗅𝖾")
