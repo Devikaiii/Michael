@@ -835,7 +835,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=Script.HELP_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
+            text=script.HELP_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -860,7 +860,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=Script.HELP_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
+            text=script.HELP_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -885,7 +885,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=Script.ONE_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
+            text=script.ONE_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
