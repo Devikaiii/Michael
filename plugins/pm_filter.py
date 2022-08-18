@@ -842,21 +842,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('ᴀᴜᴛᴏ', callback_data='manuelfilter'),
-            InlineKeyboardButton('ᴍᴀɴᴜᴀʟ', callback_data='autofilter'),
-            InlineKeyboardButton('ʙᴀᴛᴄʜ', callback_data='coct')
+            InlineKeyboardButton('ᴀᴜᴛᴏ', callback_data='autofilter'),
+            InlineKeyboardButton('ᴍᴀɴᴜᴀʟ', callback_data='manuelfilter'),
+            InlineKeyboardButton('ʙᴀᴛᴄʜ', callback_data='newdata')
             ],[
-            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='songs'),
-            InlineKeyboardButton('ɪᴍᴅʙ', callback_data='extra'),
-            InlineKeyboardButton("ᴊsᴏɴ", callback_data='video')
+            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
+            InlineKeyboardButton('ɪᴍᴅʙ', callback_data='image'),
+            InlineKeyboardButton("ᴊsᴏɴ", callback_data='son')
             ],[
             InlineKeyboardButton('ᴘɪɴ', callback_data='pin'), 
             InlineKeyboardButton('ᴘᴀsᴛᴇ', callback_data='pastes'),
-            InlineKeyboardButton("ʏᴛ ᴛʜᴜᴍʙ", callback_data='image')
+            InlineKeyboardButton("ʏᴛ ᴛʜᴜᴍʙ", callback_data='ytthumb')
             ],[
-            InlineKeyboardButton('', callback_data='fun'), 
-            InlineKeyboardButton('', callback_data='son'),
-            InlineKeyboardButton('', callback_data='ttss')
+            InlineKeyboardButton('⏪ Back', callback_data='start'), 
+            InlineKeyboardButton('Close 🔐', callback_data='close_data'),
+            InlineKeyboardButton('Next ⏩', callback_data='one')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -867,21 +867,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "one":
         buttons = [[
-            InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='manuelfilter'),
-            InlineKeyboardButton('ᴛᴛs', callback_data='autofilter'),
-            InlineKeyboardButton('ᴘɪɴɢ', callback_data='coct')
+            InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='purges'),
+            InlineKeyboardButton('ᴛᴛs', callback_data='ttss'),
+            InlineKeyboardButton('ᴘɪɴɢ', callback_data='pings')
             ],[
             InlineKeyboardButton('sᴏɴɢ', callback_data='songs'),
             InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra'),
             InlineKeyboardButton("ᴠɪᴅᴇᴏ", callback_data='video')
             ],[
-            InlineKeyboardButton('ᴡʜᴏɪs', callback_data='pin'), 
-            InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='pastes'),
-            InlineKeyboardButton("ᴋɪᴄᴋ", callback_data='image')
+            InlineKeyboardButton('ᴡʜᴏɪs', callback_data='whois'), 
+            InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='restric'),
+            InlineKeyboardButton("ᴋɪᴄᴋ", callback_data='zombies')
             ],[
-            InlineKeyboardButton('', callback_data='fun'), 
-            InlineKeyboardButton('', callback_data='son'),
-            InlineKeyboardButton('', callback_data='ttss')
+            InlineKeyboardButton('⏪ Back', callback_data='one'), 
+            InlineKeyboardButton('Close 🔐', callback_data='close_data'),
+            InlineKeyboardButton('Next ⏩', callback_data='one')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -892,21 +892,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "two":
         buttons = [[
-            InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='manuelfilter'),
-            InlineKeyboardButton('ᴄᴏᴠɪᴅ', callback_data='autofilter'),
-            InlineKeyboardButton('ʀᴇᴘᴏʀᴛ', callback_data='coct')
+            InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='tele'),
+            InlineKeyboardButton('ᴄᴏᴠɪᴅ', callback_data='corona'),
+            InlineKeyboardButton('ʀᴇᴘᴏʀᴛ', callback_data='report')
             ],[
-            InlineKeyboardButton('sᴛɪᴄᴋᴇʀ ɪᴅ', callback_data='songs'),
-            InlineKeyboardButton('ɢ ᴛʀᴀɴs', callback_data='extra'),
-            InlineKeyboardButton("ᴜʀʟ sʜᴏʀᴛ", callback_data='video')
+            InlineKeyboardButton('sᴛɪᴄᴋᴇʀ ɪᴅ', callback_data='sticker'),
+            InlineKeyboardButton('ɢ ᴛʀᴀɴs', callback_data='gtrans'),
+            InlineKeyboardButton("ᴜʀʟ sʜᴏʀᴛ", callback_data='urlshort')
             ],[
-            InlineKeyboardButton('ᴀᴜᴅɪᴏ ʙᴏᴏᴋ', callback_data='pin'), 
-            InlineKeyboardButton('ғᴜɴ', callback_data='pastes'),
-            InlineKeyboardButton("sᴛᴀᴛᴜs", callback_data='image')
+            InlineKeyboardButton('ᴀᴜᴅɪᴏ ʙᴏᴏᴋ', callback_data='abook'), 
+            InlineKeyboardButton('ғᴜɴ', callback_data='fun'),
+            InlineKeyboardButton("sᴛᴀᴛᴜs", callback_data='stats')
             ],[
-            InlineKeyboardButton('', callback_data='fun'), 
-            InlineKeyboardButton('', callback_data='son'),
-            InlineKeyboardButton('', callback_data='ttss')
+            InlineKeyboardButton('⏪ Back', callback_data='one'), 
+            InlineKeyboardButton('Close 🔐', callback_data='close_data'),
+            InlineKeyboardButton('🏠 Home', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.answer("𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗆𝗒 𝖧𝖾𝗅𝗉 𝗆𝗈𝖽𝗎𝗅𝖾")
