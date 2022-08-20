@@ -1,6 +1,11 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽.. 𝚃𝙷𝙴𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁𝚂 ♥️♥️🔥"""
+    START_TXT = """<b>👋 Hᴇʟʟᴏ {},
+
+Mʏ Nᴀᴍᴇ ɪs Mɪᴄʜᴀᴇʟ Jᴀᴄᴋsᴏɴ, I ᴀᴍ A Pᴏᴡᴇʀғᴜʟ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ Wʜɪᴄʜ Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs Iɴ Yᴏᴜʀ Gʀᴏᴜᴘs.
+
+Jᴜsᴛ Add Me To Your Groups Tᴏ Sᴇᴇ Mʏ Pᴏᴡᴇʀ.
+
+Click On The `🛠️ Help´ Button For More...</b>"""
     HELP_TXT = """<b>Welcome To Help Module #1</b>"""
     ONE_TXT = """<b>Welcome To Help Module #2</b>"""
     TWO_TXT = """<b>Welcome To Help Module #3</b>"""
