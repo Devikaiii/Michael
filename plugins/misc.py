@@ -60,10 +60,10 @@ async def showid(client, message):
 @Client.on_message(filters.command("about"))
 async def aboutme(client, message):
         buttons= [[
-            InlineKeyboardButton('♥️ 𝙳𝙴𝙿𝙻𝙾𝚈 𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 ♥️', url='https://youtu.be/kB9TkCs8cX0')
+            InlineKeyboardButton('🔰 Movie Group 🔰', url='https://t.me/+4Gma2ZZFFRA2MWQ1')
             ],[
-            InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
-            InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
+            InlineKeyboardButton('🏠 Home', callback_data='start'),
+            InlineKeyboardButton('Close 🔐', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -77,10 +77,10 @@ async def aboutme(client, message):
 async def who_is(client, message):
     # https://github.com/SpEcHiDe/PyroGramBot/blob/master/pyrobot/plugins/admemes/whois.py#L19
     status_message = await message.reply_text(
-        "`𝚂𝙴𝙰𝚁𝙲𝙷𝙸𝙽𝙶 𝚄𝚂𝙴𝚁...`"
+        "searching user..."
     )
     await status_message.edit(
-        "`𝙰𝙲𝙲𝙴𝚂𝚂𝙸𝙽𝙶 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝚃𝙸𝙾𝙽...`"
+        "accessing information..."
     )
     from_user = None
     from_user_id, _ = extract_user(message)
@@ -146,7 +146,7 @@ async def who_is(client, message):
         )
     await status_message.delete()
 
-@Client.on_message(filters.command("help"))
+@Client.on_message(filters.command("rekt"))
 async def help(client, message):
         buttons = [[
             InlineKeyboardButton('𝙼𝙰𝙽𝚄𝙴𝙻 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='manuelfilter'),
