@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('', url='https://t.me/tgbruh')
             ],[      
             InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='bio')
             ],[
             InlineKeyboardButton('', url='https://t.me/+4Gma2ZZFFRA2MWQ1')
         ]]         
@@ -88,7 +88,7 @@ async def start(client, message):
             InlineKeyboardButton('', url='https://t.me/tgbruh')
             ],[      
             InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='bio')
             ],[
             InlineKeyboardButton('', switch_inline_query_current_chat='')
         ]]
@@ -107,7 +107,7 @@ async def start(client, message):
         file_id = data
         pre = ""
     if data.split("-", 1)[0] == "BATCH":
-        sts = await message.reply("<b>𝙰𝙲𝙲𝙴𝚂𝚂𝙸𝙽𝙶 𝙵𝙸𝙻𝙴𝚂.../</b>")
+        sts = await message.reply("<b>Accessing Files...</b>")
         file_id = data.split("-", 1)[1]
         msgs = BATCH_FILES.get(file_id)
         if not msgs:
@@ -155,7 +155,7 @@ async def start(client, message):
         await sts.delete()
         return
     elif data.split("-", 1)[0] == "DSTORE":
-        sts = await message.reply("<b>𝙰𝙲𝙲𝙴𝚂𝚂𝙸𝙽𝙶 𝙵𝙸𝙻𝙴𝚂.../</b>")
+        sts = await message.reply("<b>Accessing Files....</b>")
         b_string = data.split("-", 1)[1]
         decoded = (base64.urlsafe_b64decode(b_string + "=" * (-len(b_string) % 4))).decode("ascii")
         try:
