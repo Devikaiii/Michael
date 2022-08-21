@@ -751,7 +751,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('', url='https://t.me/TGBruh')
             ],[      
             InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='bio')
             ],[
             InlineKeyboardButton('', switch_inline_query_current_chat='')
         ]]
