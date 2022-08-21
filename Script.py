@@ -59,18 +59,14 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂�
 ✮ 𝗣𝗮𝘆𝗣𝗮𝗹
 _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐀𝐧𝐝 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
 ━━━━━━━━━━━━᚜ <a href=https://t.me/AboutAadhi><b>ꪖꪖᦔꫝỉ</b></a> ᚛━━━━━━━━━━━━""" 
-    FILE_TXT = """➪ /plink ›› 
-➪ /pbatch ›› Use Your Media Link With This Commanf.
-➪ /batch ›› To Create Link For Multiple Files.
+    FILE_TXT = """<b>Commands and Usage.</b>
 
-⪼ 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 ›
-
-<code>/batch https://t.me/MWUpdatez/3 https://t.me/MWUpdatez/8</code>
-
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/MWUpdatez><b>𝙼𝚆-𝚄𝙿𝙳𝙰𝚃𝙴𝚉</b></a>"""
+/autofilter on - Enable auto filter.
+/autofilter off - Disable auto filter.
+/set_template - Set custom ɪᴍᴅʙ template."""
     WHOIS_TXT ="""<b>Commands and Usage</b>
 
-•/whois :-give a user full details"""
+/whois - For user details"""
     FUN_TXT ="""<b>Games</b> 
     
 𝟣. /dice - Role The Dice
@@ -152,9 +148,9 @@ Group Support."""
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
     AUTOFILTER_TXT = """<b>Commands and Usage.</b>
 
-/autofilter on - Enable Auto Filter.
-/autofilter off - Disable Auto Filter.
-/set_template - Set Custom IMDB Template."""
+/autofilter on - Enable auto filter.
+/autofilter off - Disable auto filter.
+/set_template - Set custom ɪᴍᴅʙ template."""
     CONNECTION_TXT = """<b>Commands and Usage:</b>
 • /connect  - <code>connect a particular chat to your PM</code>
 • /disconnect  - <code>disconnect from a chat</code>
