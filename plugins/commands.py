@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙱𝙾𝚃', url=f"https://t.me/AboutAadhi")
+                InlineKeyboardButton('', url=f"")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -39,15 +39,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('🎉 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽𝘀 🎉', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('🎉 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽𝘀 🎉', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
             ],[
-            InlineKeyboardButton('🧞‍♀️ ᴅᴇᴠ ', url='https://t.me/ddrabit'),
-            InlineKeyboardButton('ᴏᴡɴᴇʀ ⚡', url='https://t.me/tgbruh')
+            InlineKeyboardButton('', url='https://t.me/ddrabit'),
+            InlineKeyboardButton('', url='https://t.me/tgbruh')
             ],[      
             InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat='')
+            InlineKeyboardButton('', url='https://t.me/+4Gma2ZZFFRA2MWQ1')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
@@ -84,13 +84,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('🎉 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽𝘀 🎉', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🧞‍♀️ ᴅᴇᴠ', url='https://t.me/ddrabit'),
-            InlineKeyboardButton('ᴏᴡɴᴇʀ ⚡', url='https://t.me/tgbruh')
+            InlineKeyboardButton('', url='https://t.me/ddrabit'),
+            InlineKeyboardButton('', url='https://t.me/tgbruh')
             ],[      
             InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('🔍 Search Movies Here', switch_inline_query_current_chat='')
+            InlineKeyboardButton('', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -360,7 +360,7 @@ async def delete_all_index_confirm(bot, message):
     await message.message.edit('Succesfully Deleted All The Indexed Files.')
 
 
-@Client.on_message(filters.command('settings'))
+@Client.on_message(filters.command('edit'))
 async def settings(client, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
