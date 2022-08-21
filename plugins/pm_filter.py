@@ -915,7 +915,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "about":
+    elif query.data == "bio":
         buttons= [[
             InlineKeyboardButton('Status 📉', callback_data='stats'),
             InlineKeyboardButton('🧸 Share', url='https://t.me/share/url?url=https://t.me/cv_autofilter_bot')
@@ -925,7 +925,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.ABOUT_TXT.format(temp.B_NAME),
+            text=script.BIO_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
         )
