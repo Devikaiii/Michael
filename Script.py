@@ -7,6 +7,18 @@ Click On The `🛠️ Help´ Button For More...</b>"""
     HELP_TXT = """<b>Welcome To My Help Module #1</b>"""
     ONE_TXT = """<b>Welcome To My Help Module #2</b>"""
     TWO_TXT = """<b>Welcome To My Help Module #3</b>"""
+    BIO_TXT = """<b>Mʏ ɴᴀᴍᴇ: {}
+
+○ Owner: <a href=https://t.me/TGBruh>കുട്ടൂസൻ</a>
+○ Dev: <a href=https://t.me/ddrabit>LᴀL</a>
+○ Creator: <a href=https://t.me/AlanWalker_TG>Alan Wlaker TG</a>
+○ Thanks To: <a href=https://t.me/Aadhixr>Aadhi</a> 
+○ Thanks To: <a href=https://t.me/Sanoob_Achu_18>Sᴀɴᴏᴏʙ</a>
+○ Thanks To: <a href=https:/t.me/teamevamaria>EvaMaria</a>
+○ Language: Phython3
+○ Data Base: MongoDB
+○ Bot Server: Heroku
+○ Build Status: v68.0.1 [ Beta ]</b>"""
     ABOUT_TXT = """<b>• ɴᴀᴍᴇ: ᴍɪᴄʜᴀᴇʟ ᴊᴀᴄᴋsᴏɴ</b>
 <b>• ᴏᴡɴᴇʀ: LᴀL</b>
 <b>• ʟɪʙʀᴀʀʏ: ᴘʏʀᴏɢʀᴀᴍ</b>
