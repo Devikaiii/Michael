@@ -4,9 +4,9 @@ class script(object):
 I ᴀᴍ A Pᴏᴡᴇʀғᴜʟ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ Wʜɪᴄʜ Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs Iɴ Yᴏᴜʀ Gʀᴏᴜᴘs. Jᴜsᴛ Add Me To Your Groups Tᴏ Sᴇᴇ Mʏ Pᴏᴡᴇʀ.
 
 Click On The `🛠️ Help´ Button For More...</b>"""
-    HELP_TXT = """<b>Welcome To Help Module #1</b>"""
-    ONE_TXT = """<b>Welcome To Help Module #2</b>"""
-    TWO_TXT = """<b>Welcome To Help Module #3</b>"""
+    HELP_TXT = """<b>Welcome To My Help Module #1</b>"""
+    ONE_TXT = """<b>Welcome To My Help Module #2</b>"""
+    TWO_TXT = """<b>Welcome To My Help Module #3</b>"""
     ABOUT_TXT = """<b>• ɴᴀᴍᴇ: ᴍɪᴄʜᴀᴇʟ ᴊᴀᴄᴋsᴏɴ</b>
 <b>• ᴏᴡɴᴇʀ: LᴀL</b>
 <b>• ʟɪʙʀᴀʀʏ: ᴘʏʀᴏɢʀᴀᴍ</b>
@@ -56,19 +56,17 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂�
 <code>/batch https://t.me/MWUpdatez/3 https://t.me/MWUpdatez/8</code>
 
 𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/MWUpdatez><b>𝙼𝚆-𝚄𝙿𝙳𝙰𝚃𝙴𝚉</b></a>"""
-    WHOIS_TXT ="""<b>WHOIS MODULE</b>
-Note:- Give a user details
+    WHOIS_TXT ="""<b>Commands and Usage</b>
+
 •/whois :-give a user full details"""
-    FUN_TXT ="""<b>Gᴀᴍᴇs</b> 
+    FUN_TXT ="""<b>Games</b> 
     
-<b>⚡ 𝙹𝚄𝚂𝚃 𝚂𝙾𝙼𝙴 𝙺𝙸𝙽𝙳 𝙾𝙵 𝙵𝚄𝙽 𝚃𝙷𝙸𝙽𝙶'𝚂 ⚡</b>
- 
-𝟣. /dice - 𝚁𝙾𝙻𝙴 𝚃𝙷𝙴 𝙳𝙸𝙲𝙴 
-𝟤. /Throw 𝗈𝗋 /Dart - 𝚃𝙾 𝙼𝙰𝙺𝙴 𝙳𝙰𝚁𝚃 
-3. /Runs - 𝚂𝙾𝙼𝙴 𝚁𝙰𝙽𝙳𝙾𝙼 𝙳𝙸𝙰𝙻𝙾𝙶𝚄𝙴𝚂 
-4. /Goal or /Shoot - 𝚃𝙾 𝙼𝙰𝙺𝙴 𝙰 𝙶𝙾𝙰𝙻 𝙾𝚁 𝚂𝙷𝙾𝙾𝚃
-5. /luck or /cownd - 𝚂𝙿𝙸𝙽 𝙰𝙽𝙳 𝚃𝚁𝚈 𝚈𝙾𝚄𝚁 𝙻𝚄𝙲𝙺"""
-    DEPLOY_TXT = """<b>𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈..?</b> 
+𝟣. /dice - Role The Dice
+𝟤. /Throw 𝗈𝗋 /Dart - To Make Dart 
+3. /Runs - Some Random Dialogues
+4. /Goal or /Shoot - To Make a Goal or Shoot
+5. /luck or /cownd - Spin And Try Your Luck"""
+    DEPLOY_TXT = """<b>𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈..? 
   
 <b>✮ Deploy Tutorial ››</b> <i><b>https://youtu.be/kB9TkCs8cX0</b></i>
 
@@ -76,16 +74,13 @@ Note:- Give a user details
 
 <b>𝚂𝙷𝙰𝚁𝙴 𝙰𝙽𝙳 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴</b>
 𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/MWUpdatez><b>𝙼𝚆-𝚄𝙿𝙳𝙰𝚃𝙴𝚉</b></a>"""
-    MANUELFILTER_TXT = """<b>Commands and Usage:</b>
+    MANUELFILTER_TXT = """<b>Commands and Usage.</b>
+
 • /filter - <code>add a filter in chat</code>
 • /filters - <code>list all the filters of a chat</code>
 • /del - <code>delete a specific filter in chat</code>
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
-    SONG_TXT = """<b>𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴</b>
-
-<b>Download Songs.</b>
-
-<b>Commands</b>
+    SONG_TXT = """<b>Commands and Usage.</b>
 
 ››  /song Song Name
 
@@ -94,7 +89,7 @@ Note:- Give a user details
 
 ◉ /pin :- To Pin The Message On Your Chat.
 ◉ /unpin :- To Unpin The Current Pinned Message."""
-    PASTE_TXT = """<b>Commands and Usage:</b>
+    PASTE_TXT = """<b>Commands and Usage.</b>
 
 • /paste [text] - paste the given text on Pasty
 
@@ -102,7 +97,7 @@ Note:- Give a user details
 
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
-    TTS_TXT = """<b>Commands and Usage:</b>
+    TTS_TXT = """<b>Commands and Usage.</b>
 
 • /tts <text> : convert text to speech
 
@@ -113,24 +108,16 @@ Note:- Give a user details
     PINGS_TXT ="""<b>Commands:</b>
 
 • /ping - To get your ping."""
-    TELE_TXT = """<b>▫️HELP: Telegraph▪️</b>
+    TELE_TXT = """<b>Commands and Usage.</b>
 
-Do as you wish with telegra.ph module!
-
-</b>Commands and Usage</b>
-
-🤧 /telegraph - Send me Picture or Video Under (5MB)
+• /telegraph - Send me Picture or Video Under (5MB)
 
 <b>NOTE:</b>
 
 • This Command Is Available in goups and pms
 • This Command Can be used by everyone"""
 
-    PRIVATEBOT_TXT = """<b>𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙱𝙾𝚃 𝙵𝙾𝚁 𝚈𝙾𝚄</b>
-<b>›› 𝙳𝙾 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝙰 𝙱𝙾𝚃 𝚂𝙰𝙼𝙴 𝙻𝙸𝙺𝙴 𝚃𝙷𝙸𝚂</b>
-<b>›› 𝚆𝙸𝚃𝙷 𝙰𝙻𝙻 𝚈𝙾𝚄𝚁 𝙲𝚁𝙴𝙳𝙸𝚃𝚂</b>
-<b>›› 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽𝙴𝚁𝚂𝙷𝙸𝙿</b>
-<b>›› 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙼𝙴 <a href=https://t.me/AboutAadhi>𝙰𝙰𝙳𝙷𝙸</a></b>"""
+    PRIVATEBOT_TXT = """click here"""
 
     JSON_TXT ="""<b>JSON:</b>
 
@@ -152,37 +139,17 @@ Delete A Lot Of Messages From Groups!
  <b>ADMIN</b> 
 
 ◉ /purge :- Delete All Messages From The Replied To Message, To The Current Message"""
-    BUTTON_TXT = """Help: <b>Buttons</b>
-
--ᗩᒍᗩ᙭  Supports both url and alert inline buttons.
-
-<b>NOTE:</b>
-1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. ᗩᒍᗩ᙭ supports buttons with any telegram media type.
-3. Buttons should be properly parsed as markdown format
-
-<b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/MWUpdatez)</code>
+    BUTTON_TXT = """<b>URL buttons:</b>
+<code>[Button Text](buttonurl:https://t.me/)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
-    AUTOFILTER_TXT = """<b>𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝙾𝙽/𝙾𝙵𝙵 𝙼𝙾𝙳𝚄𝙻𝙴..</b>
+    AUTOFILTER_TXT = """<b>Commands and Usage.</b>
 
-<b>𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝙸𝚂 𝚃𝙷𝙴 𝙵𝙴𝙰𝚃𝚄𝚁𝙴 𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝙰𝙽𝙳 𝚂𝙰𝚅𝙴  𝚃𝙷𝙴 𝙵𝙸𝙻𝙴𝚂 𝙰𝚄𝚃𝙾𝙼𝙰𝚃𝙸𝙲𝙰𝙻𝙻𝚈 𝙵𝚁𝙾𝙼 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚃𝙾 𝙶𝚁𝙾𝚄𝙿. 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝚃𝙷𝙴 𝙵𝙾𝙻𝙻𝙾𝚆𝙸𝙽𝙶 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 𝚃𝙾 𝙾𝙽 𝙰𝙽𝙳 𝙾𝙵𝙵 𝚃𝙷𝙴 𝙰𝚄𝚃𝙾𝙵𝙸𝙻𝚃𝙴𝚁 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿.../</b>
-
-<b>𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 :-
-<b>›› /autofilter on - 𝙴𝙽𝙰𝙱𝙻𝙴 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝙸𝙽 𝚃𝙷𝙴 𝙶𝚁𝙾𝚄𝙿𝚂.</b>
-<b>›› /autofilter off - 𝙳𝙸𝚂𝙰𝙱𝙻𝙴𝙳 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝙸𝙽 𝚃𝙷𝙴 𝙶𝚁𝙾𝚄𝙿𝚂.</b>
-<b>›› /set_template - 𝚂𝙴𝚃 𝙲𝚄𝚂𝚃𝙾𝙼 𝙸𝙼𝙳𝙱 𝚃𝙴𝙼𝙿𝙻𝙰𝚃𝙴 𝙵𝙾𝚁 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁.</b>
-<b>›› /get_template - 𝙶𝙴𝚃 𝙲𝚄𝚁𝚁𝙴𝙽𝚃 𝙸𝙼𝙳𝙱 𝚃𝙴𝙼𝙿𝙻𝙰𝚃𝙴 𝙾𝙵 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁.</b>
-
-<b>𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href=https://t.me/OpusTechz>𝙾𝙿𝚄𝚂-𝚃𝙴𝙲𝙷𝚉</a></b>"""
-    CONNECTION_TXT = """Help: <b>Connections</b>
-
-- Used to connect bot to PM for managing filters 
-- it helps to avoid spamming in groups.
-
-<b>NOTE:</b>
+<b>›› /autofilter on - Enable Auto Filter.</b>
+<b>›› /autofilter off - Disable Auto Filter.</b>
+<b>›› /set_template - Set Custom IMDB Temolate.</b>"""
+    CONNECTION_TXT = """<b>NOTE:</b>
 1. Only admins can add a connection.
 2. Send <code>/connect</code> for connecting me to ur PM
 
@@ -190,15 +157,10 @@ Delete A Lot Of Messages From Groups!
 • /connect  - <code>connect a particular chat to your PM</code>
 • /disconnect  - <code>disconnect from a chat</code>
 • /connections - <code>list all your connections</code>"""
-    EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
+    EXTRAMOD_TXT = """<b>Commands and Usage:</b>
 
-<b>NOTE:</b>
-these are the extra features of ᗩᒍᗩ᙭ 
-
-<b>Commands and Usage:</b>
 • /id - <code>get id of a specifed user.</code>
 • /info  - <code>get information about a user.</code>
-• /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>"""
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
