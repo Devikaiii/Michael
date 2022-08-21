@@ -10,11 +10,11 @@ Click On The `🛠️ Help´ Button For More...</b>"""
     BIO_TXT = """<b>Mʏ ɴᴀᴍᴇ: {}
 
 ○ Owner: <a href=https://t.me/TGBruh>കുട്ടൂസൻ</a>
-○ Dev: <a href=https://t.me/ddrabit>LᴀL</a>
+○ Developer: <a href=https://t.me/ddrabit>LᴀL</a>
 ○ Creator: <a href=https://t.me/AlanWalker_TG>Alan Wlaker TG</a>
 ○ Thanks To: <a href=https://t.me/Aadhixr>Aadhi</a> 
 ○ Thanks To: <a href=https://t.me/Sanoob_Achu_18>Sᴀɴᴏᴏʙ</a>
-○ Thanks To: <a href=https:/t.me/teamevamaria>EvaMaria</a>
+○ Thanks To: <a href=https://t.me/teamevamaria>EvaMaria</a>
 ○ Language: Phython3
 ○ Data Base: MongoDB
 ○ Bot Server: Heroku
@@ -94,16 +94,16 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂�
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     SONG_TXT = """<b>Commands and Usage.</b>
 
-››  /song Song Name
+</song Song Name>
 
 📌 ᴡᴏʀᴋs ᴏɴʟʏ ᴏɴ ɢʀᴏᴜᴘs."""
-    PIN_TXT ="""<b>Commands & Usage.</b>
+    PIN_TXT ="""<b>Commands and Usage.</b>
 
-◉ /pin :- To Pin The Message On Your Chat.
-◉ /unpin :- To Unpin The Current Pinned Message."""
+/pin - To Pin The Message On Your Chat.
+/unpin - To Unpin The Current Pinned Message."""
     PASTE_TXT = """<b>Commands and Usage.</b>
 
-• /paste [text] - paste the given text on Pasty
+/paste [text] - paste the given text on Pasty
 
 <b>NOTE:</b>
 
@@ -111,23 +111,23 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂�
 • These commands can be used by any group member."""
     TTS_TXT = """<b>Commands and Usage.</b>
 
-• /tts <text> : convert text to speech
+/tts <text> : convert text to speech
 
 <b>NOTE:</b>
 
 • These commands works on both pm and group.
 • IMDb can translate texts to 200+ languages."""
-    PINGS_TXT ="""<b>Commands:</b>
+    PINGS_TXT ="""<b>Usage.</b>
 
-• /ping - To get your ping."""
+/ping - To get your ping."""
     TELE_TXT = """<b>Commands and Usage.</b>
 
-• /telegraph - Send me Picture or Video Under (5MB)
+/telegraph - Send me Picture or Video Under (5MB)
 
 <b>NOTE:</b>
 
-• This Command Is Available in goups and pms
-• This Command Can be used by everyone"""
+This Command Is Available in goups and pms.
+This Command Can be used by everyone."""
 
     PRIVATEBOT_TXT = """Hey {} I'm Alive."""
 
@@ -137,35 +137,25 @@ Bot returns json for all replied messages with /json
 
 <b>Features:</b>
 
-Message Editting JSON
-Pm Support
-Group Support
+Message Editting JSON.
+Pm Support.
+Group Support."""
+    PURGE_TXT = """<b>Usage.</b>
+   
+/purge :- Delete All Messages From The Replied To Message, To The Current Message"""
+    BUTTON_TXT = """<b>Usage.</b>
 
-<b>Note:</b>
-
-Everyone can use this command , if spaming happens bot will automatically ban you from the group."""
-    PURGE_TXT = """<b>Purge</b>
-    
-Delete A Lot Of Messages From Groups! 
-    
- <b>ADMIN</b> 
-
-◉ /purge :- Delete All Messages From The Replied To Message, To The Current Message"""
-    BUTTON_TXT = """<b>URL buttons:</b>
+<b>URL buttons:</b>
 <code>[Button Text](buttonurl:https://t.me/)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
     AUTOFILTER_TXT = """<b>Commands and Usage.</b>
 
-<b>›› /autofilter on - Enable Auto Filter.</b>
-<b>›› /autofilter off - Disable Auto Filter.</b>
-<b>›› /set_template - Set Custom IMDB Temolate.</b>"""
-    CONNECTION_TXT = """<b>NOTE:</b>
-1. Only admins can add a connection.
-2. Send <code>/connect</code> for connecting me to ur PM
-
-<b>Commands and Usage:</b>
+/autofilter on - Enable Auto Filter.
+/autofilter off - Disable Auto Filter.
+/set_template - Set Custom IMDB Template."""
+    CONNECTION_TXT = """<b>Commands and Usage:</b>
 • /connect  - <code>connect a particular chat to your PM</code>
 • /disconnect  - <code>disconnect from a chat</code>
 • /connections - <code>list all your connections</code>"""
@@ -191,16 +181,16 @@ This module only works for my admins
 • /unban_user  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """<b>᚛› 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code></b>
-<b>᚛› 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code></b>
-<b>᚛› 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code></b>
-<b>᚛› 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝙱</b>
-<b>᚛› 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝙱</b>"""
+    STATUS_TXT = """<b>ғɪʟᴇs: <code>{}</code></b>
+<b>ᴜsᴇʀs: <code>{}</code></b>
+<b>ᴄʜᴀᴛs: <code>{}</code></b>
+<b>ᴜsᴇᴅ: <code>{}</code></b>
+<b>ғʀᴇᴇ: <code>{}</code></b>"""
     LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
     
-<b>᚛› 𝐆𝐫𝐨𝐮𝐩 ⪼ {}(<code>{}</code>)</b>
-<b>᚛› 𝐓𝐨𝐭𝐚𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 ⪼ <code>{}</code></b>
-<b>᚛› 𝐀𝐝𝐝𝐞𝐝 𝐁𝐲 ⪼ {}</b>
+<b>᚛› Group = {}(<code>{}</code>)</b>
+<b>᚛› Members = <code>{}</code></b>
+<b>᚛› Added By ⪼ {}</b>
 """
     LOG_TEXT_P = """#NewUser
     
@@ -209,9 +199,9 @@ This module only works for my admins
 """
     REPORT_TXT = """<b>Usage.</b>
 
-➪/report 𝗈𝗋 @admins"""
+/report 𝗈𝗋 @admins """
 
-    CORONA_TXT = """➪ /covid - Use This Command To know Covid informations.
+    CORONA_TXT = """/covid - Use This Command To know Covid informations.
 
 Example:
 
@@ -219,25 +209,18 @@ Example:
 
     URLSHORT_TXT = """This Command will Help You To short a Link.
 
-<b>Usage:<\b>
+<b>Usage: /short <link>
 
-/short <link>
+Example:
 
-➛Example:
+<code>/short https://t.me/ddrabit</code>"""
 
-<code>/short https:t.me/ddrabit</code>"""
+    VIDEO_TXT ="""<b>Youtube Video Downloader.</b>
 
-    VIDEO_TXT ="""Youtube Video Downloader.
+<b>Usage:</b>
 
-<b>Usage:<\b>
-
-• Type /video or /mp4 𝘈𝘯𝘥 (https://youtu.be/kB9TkCs8cX0)
-
-
-• Example:
-
-<code>/mp4 https://youtu.be/kB9TkCs8cX0</code>
-<code>/video https://youtu.be/kB9TkCs8cX0</code>"""
+Type: /video <link>
+Type: /mp4 <link>"""
 
     ZOMBIES_TXT = """<b>Kick incative members from group. Add me as admin with ban users permission in group.</b>
 
@@ -256,57 +239,52 @@ Example:
 
     STICKER_TXT = """<b>Usage.</b>
 
-❍ /stickerid - Reply to any sticker for sticker id."""
+/stickerid - Reply to any sticker for sticker id."""
 
     YTTHUMB_TXT = """<b>Youtube Video Thumbnail Downloader.</b>
-    
-<b>Usage.</b>
 
-/ytthumb <link>
+Usage: /ytthumb <video link>
 
-• Example:
-
-<code>/ytthumb https://youtu.be/UyzJ9KEoU0w</code>"""
+Example: /ytthumb https://youtu.be/UyzJ9KEoU0w"""
 
     ABOOK_TXT = """<b>You can convert a pdf file to a audio file with this command.</b>
 
 <b>Commands and Usage.</b>
 
-/audiobook - Reply to PDF file to generate the audio."""
+/audiobook - <b>Reply to PDF file to generate the audio.</b>"""
 
-    GTRANS_TXT = """<b>Commands and Usage.</b>
+    GTRANS_TXT = """<b>Help: Gᴏᴏɢʟᴇ Tʀᴀɴsʟᴀᴛᴏʀ
 
-/tr - To Translate texts to specific language.
+Tʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛs ᴛᴏ ᴀ sᴘᴇᴄɪғɪᴄ ʟᴀɴɢᴜᴀɢᴇ!
+
+Cᴏᴍᴍᴀɴᴅs ᴀɴᴅ Usᴀɢᴇ: /tr [lang Code][reply] - ᴛʀᴀɴsʟᴀᴛᴇ ʀᴇᴘʟɪᴇᴅ ᴍᴇssᴀɢᴇ ᴛᴏ sᴘᴇᴄɪғɪᴄ ʟᴀɴɢᴜᴀɢᴇ.
 
 NOTE:
 
 While Using /tr you should specify the language code.
 
-• 𝖾𝗇 = 𝖤𝗇𝗀𝗅𝗂𝗌𝗁
-• 𝗆𝗅 = 𝖬𝖺𝗅𝖺𝗒𝖺𝗅𝖺𝗆
-• 𝗁𝗂 = 𝖧𝗂𝗇𝖽𝗂
+Example:
 
-Example: /tr ml"""
+• en = english
+• ml = malayalam
+• hi = hindi
 
-    RESTRIC_TXT = """➤ 𝐇𝐞𝐥𝐩: Mᴜᴛᴇ 🚫
+Type: /tr ml
 
-𝚃𝚑𝚎𝚜𝚎 𝚊𝚛𝚎 𝚝𝚑𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜 𝚊 𝚐𝚛𝚘𝚞𝚙 𝚊𝚍𝚖𝚒𝚗 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚝𝚘 𝚖𝚊𝚗𝚊𝚐𝚎 𝚝𝚑𝚎𝚒𝚛 𝚐𝚛𝚘𝚞𝚙 𝚖𝚘𝚛𝚎 𝚎𝚏𝚏𝚒𝚌𝚒𝚎𝚗𝚝𝚕𝚢.
+For More Language Codes Click Here 👇</b>"""
 
-➪/ban: 𝖳𝗈 𝖻𝖺𝗇 𝖺 𝗎𝗌𝖾𝗋 𝖿𝗋𝗈𝗆 𝗍𝗁𝖾 𝗀𝗋𝗈𝗎𝗉.
-➪/unban: 𝖳𝗈 𝗎𝗇𝖻𝖺𝗇 𝖺 𝗎𝗌𝖾𝗋 𝗂𝗇 𝗍𝗁𝖾 𝗀𝗋𝗈𝗎𝗉.
-➪/tban: 𝖳𝗈 𝗍𝖾𝗆𝗉𝗈𝗋𝖺𝗋𝗂𝗅𝗒 𝖻𝖺𝗇 𝖺 𝗎𝗌𝖾𝗋.
-➪/mute: 𝖳𝗈 𝗆𝗎𝗍𝖾 𝖺 𝗎𝗌𝖾𝗋 𝗂𝗇 𝗍𝗁𝖾 𝗀𝗋𝗈𝗎𝗉.
-➪/unmute: 𝖳𝗈 𝗎𝗇𝗆𝗎𝗍𝖾 𝖺 𝗎𝗌𝖾𝗋 𝗂𝗇 𝗍𝗁𝖾 𝗀𝗋𝗈𝗎𝗉.
-➪/tmute: 𝖳𝗈 𝗍𝖾𝗆𝗉𝗈𝗋𝖺𝗋𝗂𝗅𝗒 𝗆𝗎𝗍𝖾 𝖺 𝗎𝗌𝖾𝗋.
+    RESTRIC_TXT = """Some people need to be publicly banned; spammers, annoyances, or just trolls.
 
-𝖭𝗈𝗍𝖾:
-𝖶𝗁𝗂𝗅𝖾 𝗎𝗌𝗂𝗇𝗀 /tmute 𝗈𝗋 /tban 𝗒𝗈𝗎 𝗌𝗁𝗈𝗎𝗅𝖽 𝗌𝗉𝖾𝖼𝗂𝖿𝗒 𝗍𝗁𝖾 𝗍𝗂𝗆𝖾 𝗅𝗂𝗆𝗂𝗍.
+This module allows you to do that easily, by exposing some common actions, so everyone will see!
 
-𝖤𝗑𝖺𝗆𝗉𝗅𝖾: /𝗍𝖻𝖺𝗇 2𝖽 𝗈𝗋 /𝗍𝗆𝗎𝗍𝖾 2𝖽.
-𝖸𝗈𝗎 𝖼𝖺𝗇 𝗎𝗌𝖾 𝗏𝖺𝗅𝗎𝖾𝗌: 𝗆/𝗁/𝖽. 
- • 𝗆 = 𝗆𝗂𝗇𝗎𝗍𝖾𝗌
- • 𝗁 = 𝗁𝗈𝗎𝗋𝗌
- • 𝖽 = 𝖽𝖺𝗒𝗌"""
+<b>Commands and Usage.</b>
+
+/ban - Ban a user.
+/unban - To unban a user.
+/tban - Temporarily ban a user. Example time values: 4m = 4 minutes, 3h = 3 hours, 6d = 6 days, 5w = 5 weeks.
+/mute - To mute a user.
+/unmute - To unmute a user.
+/tmute - Temporarily mute a user. Example time values: 4m = 4 minutes, 3h = 3 hours, 6d = 6 days, 5w = 5 weeks"""
     CREATOR_REQUIRED = """<b>You have To Be The Group Owner To Do That.</b>"""
       
     INPUT_REQUIRED = "**Arguments Required.**"
