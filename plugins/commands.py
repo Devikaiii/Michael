@@ -137,6 +137,7 @@ async def start(client, message):
                     chat_id=message.from_user.id,
                     file_id=msg.get("file_id"),
                     caption=f_caption,
+                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝐂𝐢𝐧𝐞𝐦𝐚 𝐕𝐢𝐥𝐥𝐚 🎬', url='https://t.me/+4Gma2ZZFFRA2MWQ1') ] ] ),
                     protect_content=msg.get('protect', False),
                     )
             except FloodWait as e:
@@ -146,6 +147,7 @@ async def start(client, message):
                     chat_id=message.from_user.id,
                     file_id=msg.get("file_id"),
                     caption=f_caption,
+                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝐂𝐢𝐧𝐞𝐦𝐚 𝐕𝐢𝐥𝐥𝐚 🎬', url='https://t.me/+4Gma2ZZFFRA2MWQ1') ] ] ),
                     protect_content=msg.get('protect', False),
                     )
             except Exception as e:
@@ -239,7 +241,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='youtube.com/OpusTechz') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝐂𝐢𝐧𝐞𝐦𝐚 𝐕𝐢𝐥𝐥𝐚 🎬', url='https://t.me/+4Gma2ZZFFRA2MWQ1') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
