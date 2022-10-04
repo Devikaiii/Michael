@@ -1,8 +1,8 @@
 class script(object):
     START_TXT = """👋🏻 Hᴇʟʟᴏ {}.
-<b>ɪᴍ ᴀɴ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs. ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ʟᴇᴛ ᴍᴇ ɢᴇᴛ ɪɴ ᴀᴄᴛɪᴏɴ!
+𝖨𝗆 𝖺𝗇 𝖺𝗎𝗍𝗈 𝖿𝗂𝗅𝗍𝖾𝗋 𝖻𝗈𝗍 𝗐𝗁𝗂𝖼𝗁 𝖼𝖺𝗇 𝗉𝗋𝗈𝗏𝗂𝖽𝖾 𝗆𝗈𝗏𝗂𝖾𝗌 𝗂𝗇 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉𝗌. 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖺𝗇𝖽 𝗉𝗋𝗈𝗆𝗈𝗍𝖾 𝗆𝖾 𝖺𝗌 𝖺𝖽𝗆𝗂𝗇 𝗍𝗈 𝗅𝖾𝗍 𝗆𝖾 𝗀𝖾𝗍 𝗂𝗇 𝖺𝖼𝗍𝗂𝗈𝗇.
 
-ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ sᴇᴇ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ʜᴏᴡ ᴛʜᴇʏ ᴡᴏʀᴋ.</b>"""
+𝖢𝗅𝗂𝖼𝗄 𝗈𝗇 𝗍𝗁𝖾 𝖧𝖾𝗅𝗉 𝖻𝗎𝗍𝗍𝗈𝗇 𝖿𝗈𝗋 𝖬𝗈𝗋𝖾..."""
     HELP_TXT = """<b>Welcome To My Help Module #1</b>"""
     ONE_TXT = """<b>Welcome To My Help Module #2</b>"""
     TWO_TXT = """<b>Welcome To My Help Module #3</b>"""
@@ -137,11 +137,11 @@ This module only works for my admins
 • /unban_user  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """<b>ғɪʟᴇs: <code>{}</code></b>
-<b>ᴜsᴇʀs: <code>{}</code></b>
-<b>ᴄʜᴀᴛs: <code>{}</code></b>
-<b>ᴜsᴇᴅ: <code>{}</code></b>
-<b>ғʀᴇᴇ: <code>{}</code></b>"""
+    STATUS_TXT = """<b>ᴛᴏᴛᴀʟ ғɪʟᴇs: <code>{}</code></b>
+<b>ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code></b>
+<b>ᴛᴏᴛᴀʟ ᴄʜᴀᴛs: <code>{}</code></b>
+<b>ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{}</code></b>
+<b>ғʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code></b>"""
     LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
     
 <b>᚛› Group = {}(<code>{}</code>)</b>
