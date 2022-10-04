@@ -1,24 +1,17 @@
 class script(object):
-    START_TXT = """<b>👋 Hᴇʟʟᴏ {},
+    START_TXT = """👋🏻 Hᴇʟʟᴏ {}.
+<b>ɪᴍ ᴀɴ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs. ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ʟᴇᴛ ᴍᴇ ɢᴇᴛ ɪɴ ᴀᴄᴛɪᴏɴ!
 
-I ᴀᴍ A Pᴏᴡᴇʀғᴜʟ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ Wʜɪᴄʜ Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs Iɴ Yᴏᴜʀ Gʀᴏᴜᴘs. Jᴜsᴛ Add Me To Your Groups Tᴏ Sᴇᴇ Mʏ Pᴏᴡᴇʀ.
-
-Click On The `🛠️ Help´ Button For More...</b>"""
+ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ sᴇᴇ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ʜᴏᴡ ᴛʜᴇʏ ᴡᴏʀᴋ.</b>"""
     HELP_TXT = """<b>Welcome To My Help Module #1</b>"""
     ONE_TXT = """<b>Welcome To My Help Module #2</b>"""
     TWO_TXT = """<b>Welcome To My Help Module #3</b>"""
-    BIO_TXT = """<b>Mʏ ɴᴀᴍᴇ: {}
-
-○ Owner: <a href=https://t.me/TGBruh>കുട്ടൂസൻ</a>
-○ Developer: <a href=https://t.me/ddrabit>LᴀL</a>
-○ Creator: <a href=https://t.me/AlanWalker_TG>Alan Wlaker TG</a>
-○ Thanks To: <a href=https://t.me/Aadhixr>Aadhi</a> 
-○ Thanks To: <a href=https://t.me/Sanoob_Achu_18>Sᴀɴᴏᴏʙ</a>
-○ Thanks To: <a href=https://t.me/teamevamaria>EvaMaria</a>
+    BIO_TXT = """<b>○ My Name: Michael Jackson
+○ Developer: <a href=https://t.me/ddrabit/26>LᴀL</a>
 ○ Language: Phython3
 ○ Data Base: MongoDB
 ○ Bot Server: Heroku
-○ Build Status: v68.0.1 [ Beta ]</b>"""
+○ Build Status: v1.0.2 [ Beta ]</b>"""
     ABOUT_TXT = """<b>• ɴᴀᴍᴇ: ᴍɪᴄʜᴀᴇʟ ᴊᴀᴄᴋsᴏɴ</b>
 <b>• ᴏᴡɴᴇʀ: LᴀL</b>
 <b>• ʟɪʙʀᴀʀʏ: ᴘʏʀᴏɢʀᴀᴍ</b>
@@ -26,39 +19,6 @@ Click On The `🛠️ Help´ Button For More...</b>"""
 <b>• ᴅᴀᴛᴀʙᴀsᴇ: ᴍᴏɴɢᴏ ᴅʙ</b>
 <b>• ʙᴏᴛ sᴇʀᴠᴇʀ: ʜᴇʀᴏᴋᴜ</b>
 <b></b>"""
-    DONATION_TXT = """<b>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧 & 𝐏𝐚𝐢𝐝 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧</b> 
-
-›› <b>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧</b>
-
-⪼ <b>𝐘𝐨𝐮 𝐂𝐚𝐧 𝐃𝐨𝐧𝐚𝐭𝐞 𝐀𝐧𝐲 𝐀𝐦𝐨𝐮𝐧𝐭 𝐘𝐨𝐮 𝐇𝐚𝐯𝐞 💳. 
-<b>━━━━━━━━━᚜ Payment Methods ᚛━━━━━━━━━
-✮ 𝗚𝗼𝗼𝗴𝗹𝗲𝗣𝗮𝘆
-✮ 𝗣𝗮𝘆𝘁𝗺
-✮ 𝗣𝗵𝗼𝗻𝗲𝗣𝗲
-✮ 𝗣𝗮𝘆𝗣𝗮𝗹
-_𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
-━━━━━━━━━━━━᚜ <a href=https://t.me/AboutAadhi><b>ꪖꪖᦔꫝỉ</b></a> ᚛━━━━━━━━━━━━
-
-›› <b>𝐏𝐚𝐢𝐝 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧</b>
-
-⪼ <b>𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐖𝐡𝐢𝐜𝐡 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐏𝐫𝐨𝐦𝐨𝐭𝐞 . 
-<b>━━━━━━━━━᚜ Payment Methods ᚛━━━━━━━━━
-✮ 𝗚𝗼𝗼𝗴𝗹𝗲𝗣𝗮𝘆
-✮ 𝗣𝗮𝘆𝘁𝗺
-✮ 𝗣𝗵𝗼𝗻𝗲𝗣𝗲
-✮ 𝗣𝗮𝘆𝗣𝗮𝗹
-_𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐀𝐧𝐝 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
-━━━━━━━━━━━━᚜ <a href=https://t.me/AboutAadhi><b>ꪖꪖᦔꫝỉ</b></a> ᚛━━━━━━━━━━━━"""
-    PROMOTION_TXT = """<b>〄 𝐏𝐚𝐢𝐝 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧 〄</b>
-
-⪼ <b>𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐖𝐡𝐢𝐜𝐡 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐏𝐫𝐨𝐦𝐨𝐭𝐞 . 
-<b>━━━━━━━━━᚜ Payment Methods ᚛━━━━━━━━━
-✮ 𝗚𝗼𝗼𝗴𝗹𝗲𝗣𝗮𝘆
-✮ 𝗣𝗮𝘆𝘁𝗺
-✮ 𝗣𝗵𝗼𝗻𝗲𝗣𝗲
-✮ 𝗣𝗮𝘆𝗣𝗮𝗹
-_𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐀𝐧𝐝 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
-━━━━━━━━━━━━᚜ <a href=https://t.me/AboutAadhi><b>ꪖꪖᦔꫝỉ</b></a> ᚛━━━━━━━━━━━━""" 
     FILE_TXT = """<b>Commands and Usage.</b>
 
 /autofilter on - Enable auto filter.
