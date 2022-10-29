@@ -8,7 +8,7 @@ class script(object):
     ONE_TXT = """<b>Welcome To My Help Module #2</b>"""
     TWO_TXT = """<b>Welcome To My Help Module #3</b>"""
     BIO_TXT = """<b>○ My Name: Michael Jackson
-○ Developer: <a href=https://t.me/ddrabit/26>LᴀL</a>
+○ Developer: <a href=https://t.me/ddrabit/19>LᴀL</a>
 ○ Language: Phython3
 ○ Data Base: MongoDB
 ○ Bot Server: Heroku
