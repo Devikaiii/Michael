@@ -918,7 +918,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "bio":
         buttons= [[
             InlineKeyboardButton('Status 📉', callback_data='stats'),
-            InlineKeyboardButton('Source', url='https://t.me/ddrabit/36')
+            InlineKeyboardButton('🪶 Source', url='https://t.me/ddrabit/36')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('Close 🔐', callback_data='close_data')
